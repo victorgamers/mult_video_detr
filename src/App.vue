@@ -4,24 +4,7 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import TrafficVideoDetector from './components/TrafficVideoDetector.vue'
+import './styles/global.css'
 </script>
-
-<style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #0f172a;
-  color: #e2e8f0;
-}
-
-#app {
-  min-height: 100vh;
-}
-</style>
